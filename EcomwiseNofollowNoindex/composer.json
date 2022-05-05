@@ -1,0 +1,22 @@
+{
+  "name": "ecomwise/noindex-nofollow",
+  "description": "Ecomwise noindex, nofollow page plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "version" : "1.0.0",
+  "require": {
+    "shopware/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "EcomwiseNofollowNoindex\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "EcomwiseNofollowNoindex\\EcomwiseNofollowNoindex",
+    "label": {
+      "de-DE": "Ecomwise noindex, nofollow page plugin",
+      "en-GB": "Ecomwise noindex, nofollow page plugin"
+    }
+  }
+}
